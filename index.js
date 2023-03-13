@@ -5,9 +5,9 @@ const path = require('path')
 
 
 //Config 
-if(process.env.NODE_ENV !== "PRODUCTION"){
-  require('dotenv').config({path : "Backend/config/config.env"})
-}
+// if(process.env.NODE_ENV !== "PRODUCTION"){
+//   require('dotenv').config({path : "Backend/config/config.env"})
+// }
 
 
 const app = express()
