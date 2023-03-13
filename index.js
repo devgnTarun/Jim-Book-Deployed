@@ -22,10 +22,10 @@ conectToMongo();
 app.use('/api/auth' , require('./Routes/auth'))
 app.use('/api/notes' , require('./Routes/notes'))
 
-app.use(express.static(path.join(__dirname , '../jimbook/build')))
+app.use(express.static(path.join(__dirname , './jimbook/build')))
 
 app.get("*" , (req , res ) => {
-    res.sendFile(path.resolve(__dirname , '../jimbook/build/index.html'))
+    res.sendFile(path.resolve(__dirname , './jimbook/build/index.html'))
 })
 
 app.listen(port, () => {
