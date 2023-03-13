@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.75a6d824.css",
+    "main.js": "/static/js/main.bc12ac5a.js",
+    "static/media/whey.png": "/static/media/whey.07680754945a6c535698.png",
+    "static/media/oats.png": "/static/media/oats.4c2a0fafb515ae8f7b0b.png",
+    "static/media/nutrela.png": "/static/media/nutrela.882f3f3a4d2e9068a33d.png",
+    "index.html": "/index.html",
+    "main.75a6d824.css.map": "/static/css/main.75a6d824.css.map",
+    "main.bc12ac5a.js.map": "/static/js/main.bc12ac5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75a6d824.css",
+    "static/js/main.bc12ac5a.js"
+  ]
+}
