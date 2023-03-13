@@ -1,6 +1,6 @@
 const conectToMongo = require('./db');
 const express = require('express')
-var cors = require('cors')
+// var cors = require('cors')
 const path = require('path')
 
 
@@ -14,7 +14,7 @@ const app = express()
 const port = process.env.PORT
 
 
-app.use(cors())
+// app.use(cors())
 app.use(express.json());
 
 conectToMongo();
