@@ -14,10 +14,7 @@ const app = express()
 const port = process.env.PORT
 
 
-app.use(cors({
-    credentials : true,
-    origin : 'http://localhost:5000',
-}))
+app.use(cors())
 app.use(express.json());
 
 conectToMongo();
