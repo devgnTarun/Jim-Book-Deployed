@@ -1,20 +1,23 @@
 const conectToMongo = require('./db');
 const express = require('express')
-// var cors = require('cors')
+var cors = require('cors')
 const path = require('path')
 
 
 //Config 
-// if(process.env.NODE_ENV !== "PRODUCTION"){
-//   require('dotenv').config({path : "Backend/config/config.env"})
-// }
+if(process.env.NODE_ENV !== "PRODUCTION"){
+  require('dotenv').config({path : "Backend/config/config.env"})
+}
 
 
 const app = express()
 const port = process.env.PORT
 
 
-// app.use(cors())
+app.use(cors({
+    credentials : true,
+    origin : 'http://localhost:5000',
+}))
 app.use(express.json());
 
 conectToMongo();
